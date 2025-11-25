@@ -1,0 +1,31 @@
+<nav class="bg-white fixed z-50 top-0 left-0 right-0 shadow-sm border-b border-gray-200 transition-colors py-2">
+  <div class="container">
+    <div class="flex justify-center sm:justify-between items-center py-4 flex-wrap gap-3">
+
+      <a routerLink="home" class="text-2xl font-bold text-[--main-color]">
+        Admin Panel
+      </a>
+
+      <ul class="flex gap-6 items-center">
+        <li>
+          <a
+            routerLink="dashboard"
+            routerLinkActive="active"
+            class="text-gray-600 hover:text-[--main-color] px-3 py-2 transition"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            routerLink="products"
+            routerLinkActive="active"
+            class="text-gray-600 hover:text-[--main-color] px-3 py-2 transition"
+          >
+            Products
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
